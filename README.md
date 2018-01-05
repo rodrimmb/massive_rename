@@ -10,7 +10,7 @@ Se iniciara el menu del programa la opcion 1 nos permite modificar los nombres d
 
 <p align="center">
 <img 
-src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/blob/develop/imgs/img_2.png"
+src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/develop/imgs/img_2.png"
 alt="Imagen ejercicio 1"
 height="200"
 />
@@ -19,7 +19,7 @@ height="200"
 Si tenemos una carpeta con ficheros a los que le queremos añadir por ejemplo el numero 7, como en la imagen:
 <p align="center">
 <img 
-src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/blob/develop/imgs/img_1.png"
+src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/develop/imgs/img_1.png"
 alt="Imagen ejercicio 1"
 height="200"
 />
@@ -29,7 +29,7 @@ Procedemos de la siguiente manera:
 
 <p align="center">
 <img 
-src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/blob/develop/imgs/img_3.png"
+src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/develop/imgs/img_3.png"
 alt="Imagen ejercicio 1"
 height="200"
 />
@@ -39,7 +39,7 @@ Vemos que los nombres de los ficheros se han modificado:
 
 <p align="center">
 <img 
-src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/blob/develop/imgs/img_4.png"
+src="https://raw.githubusercontent.com/rodrimmbdev/massive_rename/develop/imgs/img_4.png"
 alt="Imagen ejercicio 1"
 height="200"
 />
