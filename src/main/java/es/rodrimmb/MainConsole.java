@@ -39,10 +39,10 @@ public class MainConsole {
             for (Path file : listOfFiles){
                 System.out.println(file.getFileName());
             }
-            System.out.println("\nIntroduce patrón:");
+            System.out.println("\nIntroduce patron:");
             String pattern = scanner.nextLine();
 
-            System.out.println("Introduce caracteres a incluir despues del patrón:");
+            System.out.println("Introduce caracteres a incluir despues del patron:");
             String textToAdd = scanner.nextLine();
 
             List<Path> paths = rename.renameFiles(listOfFiles, pattern, textToAdd);
@@ -53,7 +53,7 @@ public class MainConsole {
     }
 
     private static String menu(){
-        return  "1- Cambiar nombres de fichero en una carpeta\n" +
+        return  "\n1- Cambiar nombres de fichero en una carpeta\n" +
                 "2- Salir\n" +
                 "Introduce tu opcion:";
     }
