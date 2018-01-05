@@ -7,6 +7,14 @@ import java.util.List;
 
 public class Rename {
 
+    public boolean existFolder(String path) {
+        if(Files.isDirectory(Paths.get(path))){
+            return true;
+        }
+        System.out.println("La ruta no existe o no es valida. "+path);
+        return false;
+    }
+
     public List<Path> getListOfFiles(String directoryPath) throws IOException {
         List<Path> files = new ArrayList<>();
         DirectoryStream<Path> paths = Files.newDirectoryStream(Paths.get(directoryPath));

@@ -5,6 +5,7 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
 
+import java.io.File;
 import java.nio.file.Path;
 import java.util.List;
 
@@ -44,4 +45,18 @@ public class RenameTest {
         assertThat(filesChanged.get(0).toString(), containsString(folder.getRoot().getPath()+"/test_ 7"));
     }
 
+    @Test
+    public void testExistFolder() throws Exception {
+        File testFolder = folder.newFolder("testFolder");
+
+        assertThat(rename.existFolder(testFolder.getPath()), is(true));
+    }
+
+    @Test
+    public void testInvalidFolder() throws Exception {
+        File testFolder = folder.newFolder("testFolder");
+        String path = testFolder.getPath()+"_fail";
+
+        assertThat(rename.existFolder(path), is(false));
+    }
 }
