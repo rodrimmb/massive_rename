@@ -1,8 +1,8 @@
 # Massive Rename
 Massive Rename es un programa para renombrar ficheros de manera masiva.
 
-##Instruciones
-Para poder ejecutar el programa debemos descargarnos el fichero jar. Una vez lo tengamos abrimos un terminal y vamos hasta la ruta donde este. Una vez en el directorio del fichero massive_rename-1.0-SNAPSHOT.jar ejecutamos el siguiente comando:
+## Instruciones
+Para poder ejecutar el programa debemos <a href="https://github.com/rodrimmbdev/massive_rename/raw/master/bin/massive_rename-1.0-SNAPSHOT.jar">descargarnos el fichero jar</a>. Una vez lo tengamos abrimos un terminal y vamos hasta la ruta donde este. Una vez en el directorio del fichero massive_rename-1.0-SNAPSHOT.jar ejecutamos el siguiente comando:
 
 `java -jar massive_rename-1.0-SNAPSHOT.jar`
 
